@@ -10,12 +10,16 @@ const CONFIG = {
     github: "alpacaparker4592",
     instagram: "",
   },
-  //projects: [
-  //  {
-  //    name: `morethan-log`,
-  //    href: "https://github.com/morethanmin/morethan-log",
-  //  },
-  //],
+  projects: [
+    {
+      name: `(KR) Notion Profile(by Oct. 06. '23.)`,
+      href: "https://fortune-dryosaurus-055.notion.site/KR-Heonhyo-s-Profile-f103941180ba4eb6bc087e48dfdba6d6?pvs=4",
+    },
+    {
+      name: `(EN) Notion Profile(by Oct. 06. '23.)`,
+      href: "https://fortune-dryosaurus-055.notion.site/EN-Heonhyo-s-Profile-a6517593b35e416fa40da538ccba6bc8?pvs=4",
+    },
+  ],
   // blog setting (required)
   blog: {
     title: "alpacaparker's blog",
