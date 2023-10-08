@@ -47,7 +47,7 @@ const Feed: React.FC<Props> = () => {
         }}
       >
         <ProfileCard />
-        <ServiceCard style="display: none" />
+        <!-- <ServiceCard /> -->
         <ContactCard />
         <div className="footer">
           <Footer />
