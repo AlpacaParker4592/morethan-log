@@ -22,8 +22,8 @@ const CONFIG = {
   ],
   // blog setting (required)
   blog: {
-    title: "alpacaparker's blog",
-    description: "welcome to alpacaparker's blog!",
+    title: "AlpacaParker's Blog",
+    description: "Welcome to AlpacaParker's blog!",
   },
 
   // CONFIG configration (required)
