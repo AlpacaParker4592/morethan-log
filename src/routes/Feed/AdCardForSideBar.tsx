@@ -14,7 +14,7 @@ const AdCardForSideBar: React.FC<Props> = () => {
       </div>
       <div className="content">
         <div className="top">
-          {/*<Image src={CONFIG.profile.image} fill alt="" /> */>
+          {/*<Image src={CONFIG.profile.image} fill alt="" /> */}
           <ins class="kakao_ad_area" style="display:none;"
             data-ad-unit = "DAN-6C7oiQ8cyetYP46e"
             data-ad-width = "300"
