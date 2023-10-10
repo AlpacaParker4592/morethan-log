@@ -19,7 +19,6 @@ const AdCardForSideBar: React.FC<Props> = () => {
             data-ad-width = "300"
             data-ad-height = "250"></ins>
           <script type="text/javascript" src="//t1.daumcdn.net/kas/static/ba.min.js" async></script>
-      </StyledWrapper>
         </div>
         <div className="mid">
         </div>
