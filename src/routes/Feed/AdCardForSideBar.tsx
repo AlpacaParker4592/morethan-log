@@ -14,7 +14,7 @@ const AdCardForSideBar: React.FC<Props> = () => {
       </div>
       <div className="content">
         <div className="top">
-          <ins class="kakao_ad_area" style="display:none;"
+          <ins className="kakao_ad_area" /*style="display:none;"*/
             data-ad-unit = "DAN-6C7oiQ8cyetYP46e"
             data-ad-width = "300"
             data-ad-height = "250"></ins>
@@ -54,6 +54,9 @@ const StyledWrapper = styled.div`
         display: block;
         padding-bottom: 100%;
       }
+    }
+    .kakao_ad_area {
+      style: none;
     }
     .mid {
       display: flex;
