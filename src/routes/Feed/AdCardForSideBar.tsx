@@ -53,9 +53,6 @@ const StyledWrapper = styled.div`
         padding-bottom: 100%;
       }
     }
-    .kakao_ad_area {
-      style: none;
-    }
     .mid {
       display: flex;
       padding: 0.5rem;
