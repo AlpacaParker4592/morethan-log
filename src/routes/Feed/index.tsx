@@ -10,6 +10,7 @@ import ProfileCard from "./ProfileCard"
 import ServiceCard from "./ServiceCard"
 import ContactCard from "./ContactCard"
 import PostList from "./PostList"
+import AdCardForSideBar from "./AdCardForSideBar"
 
 const HEADER_HEIGHT = 73
 
@@ -49,6 +50,7 @@ const Feed: React.FC<Props> = () => {
         <ProfileCard />
         {/* <ServiceCard /> */}
         <ContactCard />
+        <AdCardForSideBar />
         <div className="footer">
           <Footer />
         </div>
