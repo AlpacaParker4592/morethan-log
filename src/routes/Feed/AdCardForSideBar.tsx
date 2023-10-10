@@ -7,23 +7,16 @@ import { Emoji } from "src/components/Emoji"
 type Props = {}
 
 const AdCardForSideBar: React.FC<Props> = () => {
-  return (
-    <StyledWrapper>
-      <div className="title">
-        <Emoji>🎲</Emoji> Ads
-      </div>
-      <div className="content">
-        <div className="top">
-          <ins class="kakao_ad_area" style="display:none;"
+  return (<>
+      <StyledTitle>🎲 Ads</StyledTitle>
+      <StyledWrapper>
+        <ins class="kakao_ad_area" style="display:none;"
             data-ad-unit = "DAN-6C7oiQ8cyetYP46e"
             data-ad-width = "300"
             data-ad-height = "250"></ins>
           <script type="text/javascript" src="//t1.daumcdn.net/kas/static/ba.min.js" async></script>
-        </div>
-        <div className="mid">
-        </div>
-      </div>
-    </StyledWrapper>
+      </StyledWrapper>
+    </>
   )
 }
 
