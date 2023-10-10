@@ -14,7 +14,6 @@ const AdCardForSideBar: React.FC<Props> = () => {
       </div>
       <div className="content">
         <div className="top">
-          {/*<Image src={CONFIG.profile.image} fill alt="" /> */}
           <ins class="kakao_ad_area" style="display:none;"
             data-ad-unit = "DAN-6C7oiQ8cyetYP46e"
             data-ad-width = "300"
@@ -22,9 +21,6 @@ const AdCardForSideBar: React.FC<Props> = () => {
           <script type="text/javascript" src="//t1.daumcdn.net/kas/static/ba.min.js" async></script>
         </div>
         <div className="mid">
-          {/* <div className=" name">{CONFIG.profile.name}</div>
-          <div className="role">{CONFIG.profile.role}</div>
-          <div className="text-sm mb-2">{CONFIG.profile.bio}</div> */}
         </div>
       </div>
     </StyledWrapper>
