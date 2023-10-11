@@ -15,12 +15,13 @@ const AdCardForSideBar: React.FC<Props> = () => {
       <div className="content">
         <div className="top">
           <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5254675061228649" crossOrigin="anonymous"></script>
-          <ins class="adsbygoogle"
-               style="display:block"
-               data-ad-client="ca-pub-5254675061228649"
-               data-ad-slot="7535877148"
-               data-ad-format="auto"
-               data-full-width-responsive="true"></ins>
+          <ins 
+            class="adsbygoogle"
+            style="display:block"
+            data-ad-client="ca-pub-5254675061228649"
+            data-ad-slot="7535877148"
+            data-ad-format="auto"
+            data-full-width-responsive="true"></ins>
           <script>
                (adsbygoogle = window.adsbygoogle || []).push({});
           </script>
