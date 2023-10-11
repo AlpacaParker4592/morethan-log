@@ -14,11 +14,17 @@ const AdCardForSideBar: React.FC<Props> = () => {
       </div>
       <div className="content">
         <div className="top">
-          <ins className="kakao_ad_area" /*style="display:none;"*/
-            data-ad-unit = "DAN-6C7oiQ8cyetYP46e"
-            /*data-ad-width = "300"*/
-            /*data-ad-height = "250"*/></ins>
-          <script type="text/javascript" src="//t1.daumcdn.net/kas/static/ba.min.js" async></script>
+          <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5254675061228649" crossorigin="anonymous"></script>
+          <!-- AdForSideBar -->
+          <ins class="adsbygoogle"
+               style="display:block"
+               data-ad-client="ca-pub-5254675061228649"
+               data-ad-slot="7535877148"
+               data-ad-format="auto"
+               data-full-width-responsive="true"></ins>
+          <script>
+               (adsbygoogle = window.adsbygoogle || []).push({});
+          </script>
         </div>
       </div>
     </StyledWrapper>
