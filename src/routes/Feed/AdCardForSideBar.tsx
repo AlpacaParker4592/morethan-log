@@ -18,6 +18,7 @@ const AdCardForSideBar: React.FC<Props> = () => {
           <ins 
             className="adsbygoogle"
             /*style="display:block;"*/
+            style={{ display: 'block' }}
             data-ad-client="ca-pub-5254675061228649"
             data-ad-slot="7535877148"
             data-ad-format="auto"
