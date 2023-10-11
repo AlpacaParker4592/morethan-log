@@ -16,7 +16,7 @@ const AdCardForSideBar: React.FC<Props> = () => {
         <div className="top">
           <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5254675061228649" crossOrigin="anonymous"></script>
           <ins 
-            class="adsbygoogle"
+            className="adsbygoogle"
             display="block"
             data-ad-client="ca-pub-5254675061228649"
             data-ad-slot="7535877148"
