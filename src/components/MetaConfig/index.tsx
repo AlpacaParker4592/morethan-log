@@ -18,6 +18,7 @@ const MetaConfig: React.FC<MetaConfigProps> = (props) => {
       <meta charSet="UTF-8" />
       <meta name="description" content={props.description} />
       <meta name="naver-site-verification" content="c913fc542522ab291f5715f0228325ba16bdadb4" />
+      <meta name="google-adsense-account" content="ca-pub-5254675061228649">
       {/* og */}
       <meta property="og:type" content={props.type} />
       <meta property="og:title" content={props.title} />
