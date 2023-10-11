@@ -9,9 +9,9 @@ type Props = {}
 const AdCardForSideBar: React.FC<Props> = () => {
   return (
     <StyledWrapper>
-      <div className="title">
+      {/*<div className="title">
         <Emoji>🎲</Emoji> Ads
-      </div>
+      </div>*/}
       <div className="content">
         <div className="top">
           <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5254675061228649"
@@ -44,8 +44,8 @@ const StyledWrapper = styled.div`
     margin-bottom: 2.25rem;
     border-radius: 1rem;
     width: 100%;
-    background-color: ${({ theme }) =>
-      theme.scheme === "light" ? "white" : theme.colors.gray4};
+    /* background-color: ${({ theme }) =>
+      theme.scheme === "light" ? "white" : theme.colors.gray4}; */
     @media (min-width: 768px) {
       padding: 1rem;
     }
@@ -58,7 +58,6 @@ const StyledWrapper = styled.div`
       &:after {
         content: "";
         display: block;
-        padding-bottom: 100%;
       }
     }
     .mid {
