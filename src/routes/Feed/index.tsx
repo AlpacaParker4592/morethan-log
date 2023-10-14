@@ -28,6 +28,7 @@ const Feed: React.FC<Props> = () => {
         }}
       >
         <TagList />
+        <AdCardForSideBar />
       </div>
       <div className="mid">
         <MobileProfileCard />
@@ -49,7 +50,6 @@ const Feed: React.FC<Props> = () => {
       >
         <ProfileCard />
         {/* <ServiceCard /> */}
-        <AdCardForSideBar />
         <ContactCard />
         <div className="footer">
           <Footer />
