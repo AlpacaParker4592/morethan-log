@@ -14,7 +14,7 @@ const AdForPost: React.FC<Props> = ({ data }) => {
   return (
     <StyledWrapper>
       <h1 className="title">{data.title}</h1>
-      {data.type[0] !== "Paper" && (
+      {(data.type[0] !== "Paper" && data.status?.[0] === "Public") && (
         <nav>
           <div className="top">
             <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5254675061228649"
