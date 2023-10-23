@@ -10,61 +10,33 @@ type Props = {
   data: TPost
 }
 
-const PostHeader: React.FC<Props> = ({ data }) => {
+const AdForPost: React.FC<Props> = ({ data }) => {
   return (
     <StyledWrapper>
       <h1 className="title">{data.title}</h1>
       {data.type[0] !== "Paper" && (
         <nav>
           <div className="top">
-            {data.author && data.author[0] && data.author[0].name && (
-              <>
-                <div className="author">
-                  <Image
-                    css={{ borderRadius: "50%" }}
-                    src={data.author[0].profile_photo || CONFIG.profile.image}
-                    alt="profile_photo"
-                    width={24}
-                    height={24}
-                  />
-                  <div className="">{data.author[0].name}</div>
-                </div>
-                <div className="hr"></div>
-              </>
-            )}
-            <div className="date">
-              {formatDate(
-                data?.date?.start_date || data.createdTime,
-                CONFIG.lang
-              )}
-            </div>
+            <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5254675061228649"
+              crossOrigin="anonymous"></script>
+            <ins 
+              className="adsbygoogle"
+              style={{ display: 'block' }}
+              data-ad-client="ca-pub-5254675061228649"
+              data-ad-slot="5646577373"
+              data-ad-format="auto"
+              data-full-width-responsive="true"></ins>
+            <script>
+                 (adsbygoogle = window.adsbygoogle || []).push({});
+            </script>
           </div>
-          <div className="mid">
-            {data.tags && (
-              <div className="tags">
-                {data.tags.map((tag: string) => (
-                  <Tag key={tag}>{tag}</Tag>
-                ))}
-              </div>
-            )}
-          </div>
-          {data.thumbnail && (
-            <div className="thumbnail">
-              <Image
-                src={data.thumbnail}
-                css={{ objectFit: "cover" }}
-                fill
-                alt={data.title}
-              />
-            </div>
-          )}
         </nav>
       )}
     </StyledWrapper>
   )
 }
 
-export default PostHeader
+export default AdForPost
 
 const StyledWrapper = styled.div`
   .title {
