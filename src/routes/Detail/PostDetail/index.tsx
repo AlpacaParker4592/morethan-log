@@ -1,5 +1,6 @@
 import React from "react"
 import PostHeader from "./PostHeader"
+import AdForPost from "./AdForPost"
 import Footer from "./PostFooter"
 import CommentBox from "./CommentBox"
 import Category from "src/components/Category"
@@ -27,6 +28,7 @@ const PostDetail: React.FC<Props> = () => {
           </div>
         )}
         {data.type[0] === "Post" && <PostHeader data={data} />}
+        {data.type[0] === "Post" && <AdForPost data={data} />}
         <div>
           <NotionRenderer recordMap={data.recordMap} />
         </div>
