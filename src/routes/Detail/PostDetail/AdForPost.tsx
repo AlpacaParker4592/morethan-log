@@ -13,7 +13,6 @@ type Props = {
 const AdForPost: React.FC<Props> = ({ data }) => {
   return (
     <StyledWrapper>
-      <h1 className="title">{data.title}</h1>
       {(data.type[0] !== "Paper" && data.status?.[0] === "Public") && (
         <nav>
           <div className="top">
